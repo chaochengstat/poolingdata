@@ -7,7 +7,7 @@ We develped statistical models adjusting for between-lab/study variability in bi
 * pooled_data.csv - a csv file for the pseudo-dataset.
 * codebook.txt - data dictionary for the pseudo-dataset.
 * functions_CCS.R - R functions containing the estimating procedure of the approximate calibration method (ACM) and exact calibration methods (ECMs) to obtain the odds ratio.
-* main.R - A warpper R code for obtainning the estimated odds ratio of 25(OH)D on the colorectal cancer outcome based on the pseudo-dataset.
+* main.R - A wrapper R code for obtainning the estimated odds ratio of 25(OH)D on the colorectal cancer outcome based on the pseudo-dataset.
 
 ## Example Output
 
