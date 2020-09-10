@@ -1,0 +1,14 @@
+The “pooled_data.csv” dataset is a pseudo-dataset in accordance to the real data example used in the manuscript, which includes the pseudo-data from two studies: The nurses’ health study (NHS) and the health professionals follow-up study (HPFS). This pseudo dataset contains the following variables:
+
+(1) matchID: The ID for the matched set or strata
+(2) Y: The disease outcome, i.e., the colorectal cancer (case 1, control 0)
+(3) HL: study-specific laboratory 25(OH)D measurements
+(4) HC: reference laboratory 25(OH)D measurements (if the individual is outside the calibration subset, the value is NA)
+(5) calibration: Whether the individual is in the calibration subset? (Yes 1, no 0) 
+(6) group: participating study index (NHS 1, HPFS 2)
+(7) draww: week of blood draw (integer, 1-52)
+(9) bmi0: body mass index (greater or less than 25 kg/m2)
+(10) smoke: smoking (ever/never)
+(11) physical: physical activities (continuous, >=0)
+(12) family: family history of colorectal cancer
+(13) ageblood: age of blood draw (continuous)
