@@ -1,6 +1,6 @@
 ### Set the working directory
 rm(list=ls())
-setwd("/Users/chaocheng/Dropbox/Pooling Paper 2/for JASA/pseudo dataset")
+setwd("...Please set your working directory...")
 
 ### Load the R packages and functions that contain the ACM and ECM estimation algorithms
 library("lme4");
